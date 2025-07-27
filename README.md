@@ -6,7 +6,7 @@ Modern icons for Emacs [helm-rg](https://github.com/cosmicexplorer/helm-rg).
 
 </div>
 
-This library integrates [modern-icons.el](https://github.com/taquangtrung/modern-icons.el) to display modern and pretty SVG icons for [helm-rg](https://github.com/cosmicexplorer/helm-rg) search results in Emacs.
+This library integrates [modern-icons.el](https://github.com/emacs-modern-icons/modern-icons.el) to display modern and pretty SVG icons for [helm-rg](https://github.com/cosmicexplorer/helm-rg) search results in Emacs.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Manually include [modern-icons-helm-rg.el](modern-icons-helm-rg.el) into your Em
 ```elisp
 (use-package modern-icons
   :straight (modern-icons :type git :host github
-                          :repo "taquangtrung/modern-icons-helm-rg.el"))
+                          :repo "emacs-modern-icons/modern-icons-helm-rg.el"))
 ```
 
 ## Usage
